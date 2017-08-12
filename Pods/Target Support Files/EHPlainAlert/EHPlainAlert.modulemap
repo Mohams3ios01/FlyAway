@@ -1,0 +1,6 @@
+framework module EHPlainAlert {
+  umbrella header "EHPlainAlert-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>43025163313-8jn2m0ae4n6iqbgsjv01ltb8465flqlu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.43025163313-8jn2m0ae4n6iqbgsjv01ltb8465flqlu</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDjiztqQ2DK_EhsiTVpzFiHqvtJ4TgyG60</string>
+	<key>GCM_SENDER_ID</key>
+	<string>43025163313</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.coherenthub.FlyAway</string>
+	<key>PROJECT_ID</key>
+	<string>flyaway-5d78e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>flyaway-5d78e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:43025163313:ios:4172726893ede7d0</string>
+	<key>DATABASE_URL</key>
+	<string>https://flyaway-5d78e.firebaseio.com</string>
+</dict>
+</plist>

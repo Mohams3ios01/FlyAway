@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1036543C1F3E42C80073C1CA /* ListingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1036543B1F3E42C80073C1CA /* ListingTableViewCell.swift */; };
+		1036543E1F3E457E0073C1CA /* ListingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1036543D1F3E457E0073C1CA /* ListingCell.swift */; };
+		103921431F21AFA10094D75F /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103921421F21AFA10094D75F /* LogInViewController.swift */; };
+		103921451F21B3F80094D75F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 103921441F21B3F80094D75F /* GoogleService-Info.plist */; };
+		103FEF301F2110AE0048CDF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FEF2F1F2110AE0048CDF5 /* AppDelegate.swift */; };
+		103FEF321F2110AE0048CDF5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FEF311F2110AE0048CDF5 /* SignUpViewController.swift */; };
+		103FEF351F2110AE0048CDF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 103FEF331F2110AE0048CDF5 /* Main.storyboard */; };
+		103FEF371F2110AE0048CDF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 103FEF361F2110AE0048CDF5 /* Assets.xcassets */; };
+		103FEF3A1F2110AE0048CDF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 103FEF381F2110AE0048CDF5 /* LaunchScreen.storyboard */; };
+		1079CAA21F2191F500864FBE /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1079CAA11F2191F500864FBE /* CustomTextField.swift */; };
+		10D058B31F2266B200EBE8CD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D058B21F2266B200EBE8CD /* ProfileViewController.swift */; };
+		10D058B71F22D45600EBE8CD /* BlankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D058B61F22D45600EBE8CD /* BlankViewController.swift */; };
+		10D058BB1F22E45200EBE8CD /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D058BA1F22E45200EBE8CD /* DashboardViewController.swift */; };
+		10D058BD1F22F1A800EBE8CD /* MessagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D058BC1F22F1A800EBE8CD /* MessagesTableViewController.swift */; };
+		10D058BF1F23BF5500EBE8CD /* NewListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D058BE1F23BF5500EBE8CD /* NewListingViewController.swift */; };
+		10DC684E1F27A3F600A3729A /* ListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DC684D1F27A3F600A3729A /* ListingViewController.swift */; };
+		10F4A8331F2C75350035099E /* ModelIdentify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F4A8321F2C75350035099E /* ModelIdentify.swift */; };
+		3B48C14EDF7DABF0B34E8F7F /* Pods_FlyAway.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3230C8B63E3C2E884B85A6F8 /* Pods_FlyAway.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1036543B1F3E42C80073C1CA /* ListingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListingTableViewCell.swift; sourceTree = "<group>"; };
+		1036543D1F3E457E0073C1CA /* ListingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListingCell.swift; sourceTree = "<group>"; };
+		103921421F21AFA10094D75F /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		103921441F21B3F80094D75F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		103FEF2C1F2110AE0048CDF5 /* FlyAway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyAway.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		103FEF2F1F2110AE0048CDF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		103FEF311F2110AE0048CDF5 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		103FEF341F2110AE0048CDF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		103FEF361F2110AE0048CDF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		103FEF391F2110AE0048CDF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		103FEF3B1F2110AE0048CDF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1079CAA11F2191F500864FBE /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		10D058B21F2266B200EBE8CD /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		10D058B61F22D45600EBE8CD /* BlankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlankViewController.swift; sourceTree = "<group>"; };
+		10D058BA1F22E45200EBE8CD /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		10D058BC1F22F1A800EBE8CD /* MessagesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesTableViewController.swift; sourceTree = "<group>"; };
+		10D058BE1F23BF5500EBE8CD /* NewListingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewListingViewController.swift; sourceTree = "<group>"; };
+		10DC684D1F27A3F600A3729A /* ListingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListingViewController.swift; sourceTree = "<group>"; };
+		10F4A8321F2C75350035099E /* ModelIdentify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelIdentify.swift; sourceTree = "<group>"; };
+		3230C8B63E3C2E884B85A6F8 /* Pods_FlyAway.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlyAway.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73A14790B5DA74E88AFD29E4 /* Pods-FlyAway.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyAway.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlyAway/Pods-FlyAway.release.xcconfig"; sourceTree = "<group>"; };
+		E32990FBD9BCCA27D2C631A5 /* Pods-FlyAway.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyAway.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlyAway/Pods-FlyAway.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		103FEF291F2110AE0048CDF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B48C14EDF7DABF0B34E8F7F /* Pods_FlyAway.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		103FEF231F2110AE0048CDF5 = {
+			isa = PBXGroup;
+			children = (
+				103FEF2E1F2110AE0048CDF5 /* FlyAway */,
+				103FEF2D1F2110AE0048CDF5 /* Products */,
+				C5C380F0A0970E9C7501DCBF /* Pods */,
+				B1BE10C9AC43AE3BD7C9AADA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		103FEF2D1F2110AE0048CDF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				103FEF2C1F2110AE0048CDF5 /* FlyAway.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		103FEF2E1F2110AE0048CDF5 /* FlyAway */ = {
+			isa = PBXGroup;
+			children = (
+				1079CA9D1F2110E000864FBE /* Model */,
+				1079CA9E1F2110E700864FBE /* View */,
+				1079CA9F1F21142800864FBE /* Controller */,
+				103FEF361F2110AE0048CDF5 /* Assets.xcassets */,
+				1079CAA01F21146C00864FBE /* Supporting Files */,
+			);
+			path = FlyAway;
+			sourceTree = "<group>";
+		};
+		1079CA9D1F2110E000864FBE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1079CAA11F2191F500864FBE /* CustomTextField.swift */,
+				10F4A8321F2C75350035099E /* ModelIdentify.swift */,
+				1036543D1F3E457E0073C1CA /* ListingCell.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1079CA9E1F2110E700864FBE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				103FEF331F2110AE0048CDF5 /* Main.storyboard */,
+				103FEF381F2110AE0048CDF5 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1079CA9F1F21142800864FBE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				103FEF2F1F2110AE0048CDF5 /* AppDelegate.swift */,
+				10DC68491F256B2000A3729A /* Auth */,
+				10DC684A1F256B3100A3729A /* Profile */,
+				10DC684B1F256B3F00A3729A /* Messages */,
+				10DC684C1F256B5100A3729A /* Dashboard */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1079CAA01F21146C00864FBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				103FEF3B1F2110AE0048CDF5 /* Info.plist */,
+				103921441F21B3F80094D75F /* GoogleService-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10DC68491F256B2000A3729A /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				10D058B61F22D45600EBE8CD /* BlankViewController.swift */,
+				103FEF311F2110AE0048CDF5 /* SignUpViewController.swift */,
+				103921421F21AFA10094D75F /* LogInViewController.swift */,
+			);
+			name = Auth;
+			sourceTree = "<group>";
+		};
+		10DC684A1F256B3100A3729A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				10D058B21F2266B200EBE8CD /* ProfileViewController.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		10DC684B1F256B3F00A3729A /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				10D058BC1F22F1A800EBE8CD /* MessagesTableViewController.swift */,
+			);
+			name = Messages;
+			sourceTree = "<group>";
+		};
+		10DC684C1F256B5100A3729A /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				10D058BA1F22E45200EBE8CD /* DashboardViewController.swift */,
+				10D058BE1F23BF5500EBE8CD /* NewListingViewController.swift */,
+				10DC684D1F27A3F600A3729A /* ListingViewController.swift */,
+				1036543B1F3E42C80073C1CA /* ListingTableViewCell.swift */,
+			);
+			name = Dashboard;
+			sourceTree = "<group>";
+		};
+		B1BE10C9AC43AE3BD7C9AADA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3230C8B63E3C2E884B85A6F8 /* Pods_FlyAway.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5C380F0A0970E9C7501DCBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E32990FBD9BCCA27D2C631A5 /* Pods-FlyAway.debug.xcconfig */,
+				73A14790B5DA74E88AFD29E4 /* Pods-FlyAway.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		103FEF2B1F2110AE0048CDF5 /* FlyAway */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 103FEF3E1F2110AE0048CDF5 /* Build configuration list for PBXNativeTarget "FlyAway" */;
+			buildPhases = (
+				55F82BB8154173A735EAC4EC /* [CP] Check Pods Manifest.lock */,
+				103FEF281F2110AE0048CDF5 /* Sources */,
+				103FEF291F2110AE0048CDF5 /* Frameworks */,
+				103FEF2A1F2110AE0048CDF5 /* Resources */,
+				74E2A2FF80A6895A3A2E51B4 /* [CP] Embed Pods Frameworks */,
+				A5EEE39092F851E6812F0C74 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyAway;
+			productName = FlyAway;
+			productReference = 103FEF2C1F2110AE0048CDF5 /* FlyAway.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		103FEF241F2110AE0048CDF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Mohammed Ibrahim";
+				TargetAttributes = {
+					103FEF2B1F2110AE0048CDF5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = MH44BZV7ER;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 103FEF271F2110AE0048CDF5 /* Build configuration list for PBXProject "FlyAway" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 103FEF231F2110AE0048CDF5;
+			productRefGroup = 103FEF2D1F2110AE0048CDF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				103FEF2B1F2110AE0048CDF5 /* FlyAway */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		103FEF2A1F2110AE0048CDF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				103FEF3A1F2110AE0048CDF5 /* LaunchScreen.storyboard in Resources */,
+				103921451F21B3F80094D75F /* GoogleService-Info.plist in Resources */,
+				103FEF371F2110AE0048CDF5 /* Assets.xcassets in Resources */,
+				103FEF351F2110AE0048CDF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55F82BB8154173A735EAC4EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		74E2A2FF80A6895A3A2E51B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlyAway/Pods-FlyAway-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5EEE39092F851E6812F0C74 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlyAway/Pods-FlyAway-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		103FEF281F2110AE0048CDF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				103921431F21AFA10094D75F /* LogInViewController.swift in Sources */,
+				10D058BD1F22F1A800EBE8CD /* MessagesTableViewController.swift in Sources */,
+				103FEF321F2110AE0048CDF5 /* SignUpViewController.swift in Sources */,
+				1036543E1F3E457E0073C1CA /* ListingCell.swift in Sources */,
+				10D058B71F22D45600EBE8CD /* BlankViewController.swift in Sources */,
+				10F4A8331F2C75350035099E /* ModelIdentify.swift in Sources */,
+				10D058B31F2266B200EBE8CD /* ProfileViewController.swift in Sources */,
+				1036543C1F3E42C80073C1CA /* ListingTableViewCell.swift in Sources */,
+				103FEF301F2110AE0048CDF5 /* AppDelegate.swift in Sources */,
+				10D058BF1F23BF5500EBE8CD /* NewListingViewController.swift in Sources */,
+				1079CAA21F2191F500864FBE /* CustomTextField.swift in Sources */,
+				10D058BB1F22E45200EBE8CD /* DashboardViewController.swift in Sources */,
+				10DC684E1F27A3F600A3729A /* ListingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		103FEF331F2110AE0048CDF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				103FEF341F2110AE0048CDF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		103FEF381F2110AE0048CDF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				103FEF391F2110AE0048CDF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		103FEF3C1F2110AE0048CDF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		103FEF3D1F2110AE0048CDF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		103FEF3F1F2110AE0048CDF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E32990FBD9BCCA27D2C631A5 /* Pods-FlyAway.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MH44BZV7ER;
+				INFOPLIST_FILE = FlyAway/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coherenthub.FlyAway;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		103FEF401F2110AE0048CDF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73A14790B5DA74E88AFD29E4 /* Pods-FlyAway.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MH44BZV7ER;
+				INFOPLIST_FILE = FlyAway/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coherenthub.FlyAway;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		103FEF271F2110AE0048CDF5 /* Build configuration list for PBXProject "FlyAway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				103FEF3C1F2110AE0048CDF5 /* Debug */,
+				103FEF3D1F2110AE0048CDF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		103FEF3E1F2110AE0048CDF5 /* Build configuration list for PBXNativeTarget "FlyAway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				103FEF3F1F2110AE0048CDF5 /* Debug */,
+				103FEF401F2110AE0048CDF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 103FEF241F2110AE0048CDF5 /* Project object */;
+}
